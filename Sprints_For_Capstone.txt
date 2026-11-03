@@ -1,0 +1,36 @@
+Jira link: https://innprogressltd.atlassian.net?continue=https%3A%2F%2Finnprogressltd.atlassian.net%2Fwelcome%2Fsoftware&atlOrigin=eyJpIjoiZTJhNWY0YWU4NTU0NDc2Mjg5YjBmMjdkMjRlNTEyNDkiLCJwIjoiaiJ9
+
+Epic: CurrentTracker v1
+ → User Story: Create dashboard
+ → User Story: Implement logging
+ → User Story: Build physical recording module
+ → User Story: Easy connection options
+ → User Story: Greater portability
+ → Tasks under each story
+
+
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 1: Build and assemble a Current Tracker software system that tracks the amperage input from a Current Transformer (CT) and displays the true output in a GUI built using Python programming language. Include a raw COM port for hardware to visualize the ESP32 board data and a simulation for academic purposes.
+
+	Due: 08/28/2026
+	Completed: 08/27/2026, SIM mode fully functional
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 2: Verify the readings are correct; add a log file for historical tracing of current (amperage) feedback in the system. This is accomplished by selecting the 'save to csv' button on the bottom of the GUI display window.
+
+	Due: 09/2/2026
+	Completed: 09/28/2026
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 3: Plug in an actual ESP32 board that is set to read a value between 1A and 100A, as is typical in a CT reading high currents in an electrical system. The value of 3.3V should be multiplied by 20 to show an amperage value in the GUI window of 66A, even if the value read is 1-5V, the expected outcome should be 20-100A.
+
+	Due: 10/26/2026
+	Completed: 10/24/2026
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 4: Include in the application a drop down menu for selection of hardware on the detected COM port that the devices are recognized as connected.
+
+	Due: 10/27/2026
+	Completed: 10/26/2026
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 5: Make the application portable so that the application does not need to be authenticated with an API key, but rather merely given to the client to be deployed as a compiled execution program to any Windows or Python friendly PC.
+
+	Due: 11/01/2026
+	Completed:

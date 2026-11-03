@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+myenv/
+
+# PyInstaller
+build/
+dist/
+
+# Logs
+*.log
+
+# Data exports
+*.csv
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
