@@ -671,17 +671,3 @@ PyQtGraph
 PySerial
 Pandas
 This software is provided "as is" without warranty of any kind. Users assume all responsibility for installation, configuration, deployment, and operation of the software.
-
-License and Legal Notice:
-Copyright © Brian Smithberger.
-
-All original software, documentation, system designs, and project-specific intellectual property contained within this repository remain the property of Brian Smithberger unless otherwise stated.
-
-Third-party libraries and frameworks remain subject to their respective licenses, including but not limited to:
-
-Python
-PyQt5
-PyQtGraph
-PySerial
-Pandas
-This software is provided "as is" without warranty of any kind. Users assume all responsibility for installation, configuration, deployment, and operation of the software.

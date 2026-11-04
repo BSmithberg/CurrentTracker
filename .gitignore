@@ -1,23 +1,32 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Virtual environment
+# Virtual environments
 myenv/
+venv/
+.env/
 
-# PyInstaller
+# Build output
 build/
 dist/
+
+# Embedded Python
+python-3.8.6-embed-win32/
+
+# Backup folder
+currentTrackerPy_v1.0_backup/
+
+# CSV exports
+*.csv
 
 # Logs
 *.log
 
-# Data exports
-*.csv
-
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# OS files
+# Windows
 Thumbs.db
-.DS_Store

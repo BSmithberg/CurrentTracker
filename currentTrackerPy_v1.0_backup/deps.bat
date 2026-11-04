@@ -1,3 +1,0 @@
-@echo off
-echo Installing Python dependencies...
-installer\python\python.exe -m pip install -r installer\requirements.txt

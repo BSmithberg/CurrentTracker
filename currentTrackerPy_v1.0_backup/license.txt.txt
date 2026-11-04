@@ -1,5 +1,0 @@
-By installing this software, you agree to the following terms:
-1. You may use this software for personal and commercial purposes with a purchase receipt and the understanding that you shall not transfer the 'exe' file or any source code to other potential users that have not purchased the application. You are restricted from transferring the application or its source code without the express written consent of the owner Brian Smithberger.
-2. Redistribution that is approved is allowed but must include this license agreement.
-3. The software is provided "as-is" without warranty.
-4. The developers are not responsible for any damages caused by using this software.
