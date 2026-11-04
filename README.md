@@ -1,3 +1,15 @@
+Capstone Deliverables
+Deliverable	Link
+Source Code Repository	https://github.com/BSmithberg/CurrentTracker.git
+Demonstration Video	
+
+Agile Development Artifacts
+Sprint planning, backlog management, and project tracking were maintained using Jira:
+Jira Scrum Board	https://innprogressltd.atlassian.net/jira/software/projects/SCRUM/summary?atlOrigin=eyJpIjoiYjRiOWFmMGI4ZDg0NGRjNGIzNDYyMzM2ZGRmOGIxZmMiLCJwIjoiaiJ9
+
+Design & Testing Documentation	Design_and_Testing.md
+System Architecture	System_Architecture.md
+
 CurrentTracker
 
 Real-Time Electrical Current Monitoring and Analysis System
