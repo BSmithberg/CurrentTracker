@@ -1,18 +1,26 @@
 Capstone Deliverables
-Deliverable	Link
+Deliverable	Links
+--------------------
 Source Code Repository	https://github.com/BSmithberg/CurrentTracker.git
 
 Demonstration Video	
+--------------------
 
 Agile Development Artifacts
+--------------------
 Sprint planning, backlog management, and project tracking were maintained using Jira:
 Jira Scrum Board	https://innprogressltd.atlassian.net/jira/software/projects/SCRUM/summary?atlOrigin=eyJpIjoiYjRiOWFmMGI4ZDg0NGRjNGIzNDYyMzM2ZGRmOGIxZmMiLCJwIjoiaiJ9
 
-Design & Testing Documentation	Design_and_Testing.md
+Design & Testing Documentation
+--------------------
+Design_and_Testing.md
 System Architecture	System_Architecture.md
 
-CurrentTracker
+-----------------------------------------------------------------------------------------
 
+
+CurrentTracker
+--------------------
 Real-Time Electrical Current Monitoring and Analysis System
 MSSE Capstone Project
 CurrentTracker is a real-time electrical current monitoring and data acquisition platform developed as part of the Master of Science in Software Engineering (MSSE) Capstone Project.
@@ -20,7 +28,7 @@ CurrentTracker is a real-time electrical current monitoring and data acquisition
 The system combines embedded hardware, serial communications, desktop application development, real-time visualization, and data storage into a unified solution for monitoring electrical current measurements. CurrentTracker enables users to collect, visualize, analyze, and export electrical current data using an ESP32-based sensing platform and a Python desktop application.
 
 Project Overview:
-
+--------------------
 CurrentTracker was designed to provide a cost-effective, extensible, and user-friendly alternative to expensive industrial current monitoring solutions.
 
 The platform enables users to:
@@ -34,7 +42,7 @@ Monitor system behavior through an intuitive graphical interface
 The project demonstrates the integration of embedded systems, software engineering, data acquisition, visualization, and testing methodologies.
 
 Problem Statement:
-
+--------------------
 Many current monitoring systems rely on costly proprietary hardware and software solutions that are not accessible for educational, laboratory, research, or small-scale engineering environments.
 
 The objective of CurrentTracker is to provide an affordable and flexible monitoring platform utilizing:
@@ -47,7 +55,7 @@ Open-source visualization libraries
 The resulting solution allows users to collect and analyze electrical measurements without requiring specialized industrial platforms.
 
 System Architecture:
-
+--------------------
 CurrentTracker follows a layered architecture that separates acquisition, communication, processing, visualization, and storage responsibilities.
 
 Current Sensors
@@ -77,8 +85,8 @@ Additional architecture details are documented in:
 System_Architecture.md
 
 System Components:
-
-Current Sensors
+--------------------
+Current Transformers
 Responsibilities:
 
 Measure electrical current
@@ -100,6 +108,7 @@ Format:
 Timestamp, Current1, Current2
 
 Communication Layer:
+--------------------
 Technology:
 
 PySerial
@@ -119,6 +128,7 @@ Parse measurement values
 Forward validated data for processing]
 
 Processing Layer
+--------------------
 Responsibilities:
 
 Convert incoming data into usable formats
@@ -133,6 +143,7 @@ data = {
 }
 
 Visualization Layer
+--------------------
 Technologies:
 
 PyQt5
@@ -145,6 +156,7 @@ Status display
 User interaction
 
 Storage Layer
+--------------------
 Technology:
 
 Pandas
@@ -168,6 +180,7 @@ Fault-tolerant communication handling
 Portable Windows deployment
 
 User Interface Features:
+--------------------
 The CurrentTracker interface includes:
 
 COM Port Selection
@@ -180,6 +193,7 @@ Save CSV Button
 The interface was designed to provide intuitive operation for both technical and non-technical users.
 
 Technology Stack:
+--------------------
 Programming Language
 Python
 Libraries
@@ -196,6 +210,7 @@ GitHub
 Inno Setup
 
 Performance Characteristics:
+--------------------
 Metric	Value
 Serial Baud Rate	115200
 Update Interval	200 ms
@@ -206,6 +221,7 @@ Auto Save Interval	60 Seconds
 Plot History Window	500 Samples
 
 Simulator Mode:
+--------------------
 CurrentTracker includes a built-in simulator mode that generates synthetic current measurements when physical hardware is unavailable.
 
 Benefits include:
@@ -218,6 +234,7 @@ Reduced hardware dependency
 Simulator mode was instrumental in supporting continuous development and testing throughout the project lifecycle.
 
 Requirements:
+--------------------
 Functional Requirements
 ID	Requirement
 FR-001	Acquire current sensor data from ESP32
@@ -237,6 +254,7 @@ NFR-004	Utilize open-source software
 NFR-005	Automatic periodic data saving
 
 Installation:
+--------------------
 Clone Repository
 git clone https://github.com/yourusername/CurrentTracker.git
 cd CurrentTracker
@@ -260,6 +278,7 @@ CurrentTracker/
 └── currentTrackerPy_v1.0_backup/
 
 Testing and Validation:
+--------------------
 Testing covered:
 
 GUI startup validation
@@ -279,7 +298,7 @@ Data Integrity Validation	PASS
 Pass Rate: 100%
 
 Detailed testing documentation is available in:
-
+--------------------
 Design_and_Testing.md
 
 Requirements Verification Matrix:
@@ -294,6 +313,7 @@ FR-007	COM Port Selection Test	Pass
 FR-008	Simulator Mode Test	Pass
 
 Engineering Challenges and Solutions:
+--------------------
 COM Port Variability
 Problem: Different systems assigned varying COM port numbers.
 
@@ -313,6 +333,7 @@ Software Engineering Principles Applied
 The project incorporates:
 
 Layered Architecture
+--------------------
 Modular Design
 Separation of Concerns
 Fault Tolerance
@@ -324,7 +345,7 @@ Hardware/Software Integration
 Future Enhancements
 
 Planned improvements include:
-
+--------------------
 Automatic ESP32 detection
 SQLite database integration
 Multi-device monitoring
@@ -337,6 +358,7 @@ Authentication and user management
 Web-based dashboard support
 
 Capstone Deliverables:
+--------------------
 This repository contains the primary artifacts required for the MSSE Capstone Project:
 
 Source Code
@@ -358,7 +380,7 @@ Project Overview
 CurrentTracker was designed to provide a cost-effective, extensible, and user-friendly alternative to expensive industrial current monitoring solutions.
 
 The platform enables users to:
-
+--------------------
 Monitor electrical current measurements in real time
 Visualize multiple current channels through live graphing
 Record operational data for later analysis
@@ -537,47 +559,6 @@ Improved validation and debugging
 Reduced hardware dependency
 Simulator mode was instrumental in supporting continuous development and testing throughout the project lifecycle.
 
-Requirements
-Functional Requirements
-ID	Requirement
-FR-001	Acquire current sensor data from ESP32
-FR-002	Support serial communication
-FR-003	Display real-time current values
-FR-004	Plot live trend graphs
-FR-005	Save collected data to CSV
-FR-006	Support multiple current channels
-FR-007	Permit user COM port selection
-FR-008	Operate without hardware using simulator mode
-Non-Functional Requirements
-ID	Requirement
-NFR-001	Update every 200 ms
-NFR-002	Responsive user interface
-NFR-003	Portable across Windows systems
-NFR-004	Utilize open-source software
-NFR-005	Automatic periodic data saving
-Installation
-Clone Repository
-git clone https://github.com/yourusername/CurrentTracker.git
-cd CurrentTracker
-Install Dependencies
-pip install -r requirements.txt
-Launch Application
-python currentTrackerPy_v1.0.py
-Repository Structure
-CurrentTracker/
-│
-├── currentTrackerPy_v1.0.py
-├── README.md
-├── requirements.txt
-├── System_Architecture.md
-├── Design_and_Testing.md
-├── Drivers/
-├── install.bat
-├── setup_script.iss
-├── build/
-├── dist/
-└── currentTrackerPy_v1.0_backup/
-Testing and Validation
 Testing covered:
 
 GUI startup validation
@@ -627,30 +608,7 @@ Solution: Implemented simulator mode for development and testing.
 
 Software Engineering Principles Applied
 The project incorporates:
-
-Layered Architecture
-Modular Design
-Separation of Concerns
-Fault Tolerance
-Maintainability
-Scalability
-User-Centered Design
-Testability
-Hardware/Software Integration
-Future Enhancements
-Planned improvements include:
-
-Automatic ESP32 detection
-SQLite database integration
-Multi-device monitoring
-Configurable alarm thresholds
-Historical trend analysis
-PDF report generation
-Cloud synchronization
-REST API integration
-Authentication and user management
-Web-based dashboard support
-
+--------------------
 Capstone Deliverables
 This repository contains the primary artifacts required for the MSSE Capstone Project:
 
@@ -664,12 +622,12 @@ Version Control History
 
 Screenshots:
 
-Main Dashboard
-Simulator Mode
+Main Dashboard Jira SCRUM Board
 Sprint 1
 Sprint 2
 Sprint 3
-Sprints_for_Capstone
+Documentation to follow Jira SCRUM Board:
+docs/Sprints_for_Capstone
 
 License and Legal Notice
 Copyright © Brian Smithberger.

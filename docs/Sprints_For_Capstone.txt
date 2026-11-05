@@ -34,3 +34,8 @@ Arduino_to_PC_Project/currentTracker_v1.0; Sprint 5: Make the application portab
 
 	Due: 11/01/2026
 	Completed:
+
+Arduino_to_PC_Project/currentTracker_v1.0; Sprint 6: Make a timer in the Python source code for an automatic saving feature for every 60 seconds (one-minute).
+
+	Due: 11/08/2026
+	Completed: 11/05/2026
