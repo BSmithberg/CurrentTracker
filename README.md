@@ -3,7 +3,7 @@ Deliverable	Links
 --------------------
 Source Code Repository	https://github.com/BSmithberg/CurrentTracker.git
 
-Demonstration Video	
+Demonstration Video 
 --------------------
 
 Agile Development Artifacts
@@ -23,8 +23,8 @@ CurrentTracker
 --------------------
 Real-Time Electrical Current Monitoring and Analysis System
 MSSE Capstone Project
-CurrentTracker is a real-time electrical current monitoring and data acquisition platform developed as part of the Master of Science in Software Engineering (MSSE) Capstone Project.
 
+CurrentTracker is a real-time electrical current monitoring and data acquisition platform developed as part of the Master of Science in Software Engineering (MSSE) Capstone Project.
 The system combines embedded hardware, serial communications, desktop application development, real-time visualization, and data storage into a unified solution for monitoring electrical current measurements. CurrentTracker enables users to collect, visualize, analyze, and export electrical current data using an ESP32-based sensing platform and a Python desktop application.
 
 Project Overview:
@@ -80,6 +80,15 @@ Visualization   Storage
         │
         ▼
 CSV Export
+
+
+Cost Assessment:
+Each component is an open-source, no-cost software artifact
+The software can be downloaded at no-cost with registration on some websites me be necessary
+The platforms have free-tier access for items such as SCRUM boards or respository buidling and storage
+The current sensor (Curretn Transformer), is a small-nominal cost compared to buying a pre-built system
+-------------------------------------------------------------------------------------------------
+
 Additional architecture details are documented in:
 
 System_Architecture.md

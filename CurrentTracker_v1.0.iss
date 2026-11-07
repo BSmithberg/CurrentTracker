@@ -13,7 +13,7 @@ AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\CurrentTracker
 DefaultGroupName=CurrentTracker
 
-OutputDir=Output
+OutputDir=Installer
 OutputBaseFilename=CurrentTrackerSetup
 
 Compression=lzma
