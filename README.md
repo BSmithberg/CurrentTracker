@@ -83,10 +83,10 @@ CSV Export
 
 
 Cost Assessment:
-Each component is an open-source, no-cost software artifact
-The software can be downloaded at no-cost with registration on some websites me be necessary
-The platforms have free-tier access for items such as SCRUM boards or respository buidling and storage
-The current sensor (Curretn Transformer), is a small-nominal cost compared to buying a pre-built system
+Each component is an open-source, no-cost software artifact.
+The software can be downloaded at no-cost with registration on some websites may be necessary.
+The platforms have free-tier access for items such as SCRUM boards or respository buidling and storage.
+The current sensor (Curretn Transformer), is a small-nominal cost compared to buying a pre-built system.
 -------------------------------------------------------------------------------------------------
 
 Additional architecture details are documented in:
