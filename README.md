@@ -264,13 +264,18 @@ NFR-005	Automatic periodic data saving
 
 Installation:
 --------------------
-Clone Repository
-git clone https://github.com/yourusername/CurrentTracker.git
-cd CurrentTracker
-Install Dependencies
-pip install -r requirements.txt
-Launch Application
-python currentTrackerPy_v1.0.py
+Go to Github link;
+https://github.com/BSmithberg/CurrentTracker/releases
+See the Releases page on the right and notice the 'assets' section by possible scroll down
+Select CurrentTrackerSetup.exe
+Notice the download and accept any restriction or notifications to allow CurrentTracker to download including blocking from Microsoft Defender
+Open download folder and double-click CurrentTrackerSetup and still bypass Microsoft Defender
+Run the install
+Follow installation wizard and 'tick' "create a desktop shortcut", then next
+At the finish of the isntall you can un-tick run CurrentTracker but you can run it after install to verify operational aspects using-
+-the sim mode until you connect an actual ESP32 board.
+
+
 Repository Structure
 CurrentTracker/
 │
